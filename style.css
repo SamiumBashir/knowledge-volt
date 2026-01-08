@@ -42,6 +42,11 @@
     color: #ffffff;
 }
 
+.btn-cln{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+}
+
 .btn:hover{
     background-color: #30B868;
 }
@@ -81,11 +86,24 @@
 .content-text{
     padding: 0 295px;
     color: #ffffff;
+    text-align: center;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
 }
 
-.hero-content h1{
+.content-text h1{
     font-size: 72px;
     font-weight: 700;
-    text-align: center;
 }
 
+.content-text p{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.buttons{
+    display: flex;
+    gap: 16px;
+}
