@@ -19,3 +19,29 @@
 .container li{
     list-style: none;
 }
+
+.container li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.container li a:hover{
+    background-color: #30B868;
+    border-radius: 12px;
+    padding: 5px 10px;
+    color: #ffffff;
+    transition: all linear 0.15s;
+}
+
+.btn{
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.btn:hover{
+    background-color: #30B868;
+}
