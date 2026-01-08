@@ -45,3 +45,47 @@
 .btn:hover{
     background-color: #30B868;
 }
+
+#hero{
+    background: url('./assets/hero-bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 16px;
+    padding: 115.5px 120px 179.5px;
+}
+
+.pill{
+    display: flex;
+    background-color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    align-items: center;
+    gap: 22px;
+}
+
+.pill .circle{
+    width: 6px;
+    background-color: #469165;
+    padding: 6px;
+    border: 4px solid #30B86895;
+    border-radius: 50%;
+}
+
+.content-text{
+    padding: 0 295px;
+    color: #ffffff;
+}
+
+.hero-content h1{
+    font-size: 72px;
+    font-weight: 700;
+    text-align: center;
+}
+
