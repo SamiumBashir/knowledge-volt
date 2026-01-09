@@ -77,9 +77,15 @@ font-family: "Inter", sans-serif;
     display: flex;
     background-color: #ffffff;
     padding: 8px 12px;
+    border: none;
     border-radius: 1000px;
     align-items: center;
     gap: 22px;
+    cursor: pointer;
+}
+
+.pill:hover{
+    background-color: #001931;
 }
 
 .pill .circle{
@@ -246,14 +252,14 @@ font-family: "Inter", sans-serif;
 
 .footer-container{
     background-color: #001931;
-    padding: 120px;
+    padding: 0 120px;
 }
 
 .contact{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 80px;
+    padding: 120px 0 80px 0;
 }
 
 .social{
@@ -282,5 +288,6 @@ font-family: "Inter", sans-serif;
     text-align: center;
     color: #ffffff;
     margin-top: 30px;
+    padding-bottom: 30px;
 
 }
