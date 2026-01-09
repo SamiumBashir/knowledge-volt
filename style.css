@@ -57,7 +57,9 @@ font-family: "Inter", sans-serif;
 }
 
 #hero{
-    background: url('./assets/hero-bg.png');
+    background-color: #2A7B9B;
+    background-blend-mode: multiply;
+    background-image: url('./assets/hero-bg.png');
     background-repeat: no-repeat;
     height: 674px;
 }
