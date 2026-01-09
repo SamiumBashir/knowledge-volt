@@ -149,6 +149,7 @@ font-family: "Inter", sans-serif;
     padding: 69px 24px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 12px;
     height: 300px;
     border: 1px solid #ffffff;
@@ -156,9 +157,58 @@ font-family: "Inter", sans-serif;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.06);
 }
 
+.card h3{
+    color: #001931;
+}
+
+.card p{
+    text-align: center;
+    color: #627382;
+}
+
 .card img{
     background-color: #F95555;
     width: 60px;
     padding: 16px;
     border-radius: 50%;
+}
+
+.solution-feature{
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.feature-text h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+}
+
+.feature-text h2{
+    font-size: 48px;
+    font-weight: 800;
+    color: #001931;
+}
+
+.feature-text p{
+    color: #627382;
+}
+
+.solution-feature .list{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.solution-feature .list p{
+    color: #001931;
+    font-weight: 500;
 }
